@@ -6,7 +6,7 @@
 }
 
 body{
-  font-family: 'Roboto', sans-serif; ;
+  font-family: 'Roboto', sans-serif; 
 } 
 
 li {
@@ -24,7 +24,7 @@ li {
   padding-top: 32px; 
   padding-bottom: 32px;
   height:  60px;
-  background-color: #938DF8;
+  background-color: #8a36d8;
 } 
 
 .header-menu nav{
@@ -49,7 +49,7 @@ li {
 .principal{
   height: 100vh;
   display: flex;
-  background-color: #EAEAEA;
+  background-color:#4b0092;
 }
 
 .container{
@@ -68,6 +68,18 @@ li {
   align-items: center;
   text-align: center;
 }
+.competencias {
+  font-size: 20px;
+  color: #938df8;
+  font-weight: 500;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+.imagens-competencias {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;  
+}
 
 .nome-completo{
   font-size: 36px;
@@ -78,13 +90,13 @@ li {
 
 .profissao{
   color: #B28282;
-  height: 60px;
+  height: 35px;
 } 
 
 .texto-sobre{
   font-size: 20px;
-  line-height: 32px;
-  color: #828282;
+  line-height: 25px;
+  color: #dbd9d9;
 } 
 
 .article-lista{
@@ -95,7 +107,7 @@ li {
 }
 
 .topico-principal{
-  color: #49bfb3;
+  color: #4b0092;
   font-size: 50px;
 } 
 
@@ -106,13 +118,13 @@ li {
 .lista-titulo{
   margin-bottom: 15px;
   font-size: 22px;
-  color: #B28282;
+  color: #938df8;
   font-weight: 700;
 }
 
 .lista-subtitulo{
   margin-bottom: 10px;
-  color: #B28282;
+  color: #938df8;
 }
 
 .lista-local{
@@ -132,7 +144,7 @@ li {
 } 
 
 .footer {
-  background-color: #5A53D8;
+  background-color: #4b0092;
   display: flex;
   align-items: center;
   height: 30vh;
@@ -153,11 +165,45 @@ li {
     margin-left: 30px
 }
 
+.footer__texto {
+    font-size: 18px;
+    font-weight: 400;
+    justify-content: flex-start;
+}
+
+.icone--texto {
+  margin: 0 8px;
+  animation: pulsar 1s infinite alternate;
+}
+
+@keyframes pulsar {
+  0% {
+      transform: scale(.8);
+  }
+  100% {
+      transform: scale(1.1);
+  } }
+
 .projetosPessoais{
  background-color: #EAEAEA;
  padding-top: 100px;
  padding-bottom: 100px;
 } 
 
+.foto-perfil {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 70px;
+  margin-bottom: 15px;
+  display: table;
+  align-items: center;
+}
+
+.feitocom {
+  font-size: 18px;
+  font-weight: 670;
+  color: #FFF;
+}
 /* {
 } */
